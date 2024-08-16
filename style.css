@@ -2,6 +2,11 @@
     font-family: "Norse Bold";
     src: url("fonts/Norse-Bold.otf");
 }
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("/fonts/Roboto-Regular.ttf")
+}
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-family: "Roboto Regular";
 
 }
 
@@ -34,7 +39,7 @@ body{
 }
 
 .main-header{
-    background-color: grey;opacity: 0.5;
+    background-color: rgba(128, 128, 128, 0.5);
     width: 100%;
     display: flex;
     align-items: center;
@@ -47,12 +52,34 @@ body{
 }
 
 .main-header > img {
-    max-height: 1lh;
+    max-height: 1.4lh;
 }
 
 .right-side{
     display: flex;
     flex: 2;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.25);
 
+}
 
+.right-top{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.right-form{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 5px 15px 5px rgba(128, 128, 128, 0.25);
+}
+
+.right-bottom{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
 }
