@@ -3,4 +3,4 @@ A Sign-Up Form design sketch
 
 ## Live View
 
-View the page [here](https://imbajanox.github.io/Sign-Up-Form/)
+View the page [here](https://imbajanox.github.io/Sign-Up-Form/sign-up.html)
