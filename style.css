@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Norse Bold";
-    src: url("fonts/Norse-Bold.otf");
+    src: url("./fonts/Norse-Bold.otf");
 }
 
 @font-face {
     font-family: "Roboto Regular";
-    src: url("fonts/Roboto-Regular.ttf")
+    src: url("./fonts/Roboto-Regular.ttf")
 }
 *{
     margin: 0;
@@ -34,7 +34,7 @@ body{
     flex: 1;
     background-position: center;
     background-size: cover;
-    background-image: url("images/background.jpg");
+    background-image: url("./images/background.jpg");
 
 }
 
