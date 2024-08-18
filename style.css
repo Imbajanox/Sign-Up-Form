@@ -83,3 +83,28 @@ body{
     flex: 1;
     align-items: center;
 }
+
+form{
+    display: flex;
+}
+
+.flex-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+
+}
+
+input[type=text]{
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+input:focus{
+    border: 1px solid lightblue;
+    outline: none;
+}
