@@ -34,7 +34,7 @@
                         <input type="email" id="email">
 
                         <label for="password">Pasword</label>
-                        <input type="password" id="password">
+                        <input type="password" id="password" required oninvalid="this.setCustomValidity('Passwords must match!')" onchange="this.setCustomValidity('')">
                     </div>
 
                     <div class="flex-wrapper">
@@ -45,7 +45,7 @@
                         <input type="text" id="phone_number">
 
                         <label for="confirm_password">Confirm Password</label>
-                        <input type="password" id="confirm_password">
+                        <input type="password" id="confirm_password" required oninvalid="this.setCustomValidity('Passwords must match!')" onchange="this.setCustomValidity('')">
                     </div>
 
                     
