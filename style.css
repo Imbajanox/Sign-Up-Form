@@ -187,4 +187,15 @@ a{
     text-decoration: none;
 }
 
+.picture-source{
+    position: fixed;
+    bottom: 5px;
+    color: white;
+}
+
+.picture-source > a{
+    color: white;
+    text-decoration: underline;
+}
+
 
