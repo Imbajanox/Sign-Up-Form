@@ -147,22 +147,6 @@ input[type=email]:focus{
     outline: none;
 }
 
-input[type=number]{
-    border: 1px solid #E5E7EB;
-    border-radius: 3px;
-    font-size: 14px;
-    width: 100%;
-    padding: 10px 20px;
-    margin: 20px 0;
-    margin-top: 0;
-    box-sizing: border-box;
-}
-input[type=number]:focus{
-    border: 1px solid lightblue;
-    box-shadow: 3px 3px 3px 3px rgba(173, 216, 230, 0.25);
-    outline: none;
-}
-
 input[type=password]{
     border: 1px solid #E5E7EB;
     border-radius: 3px;
@@ -191,11 +175,11 @@ input[type=submit]{
     border: none;
     box-shadow: 5px 5px 15px 5px rgba(128, 128, 128, 0.25);
     border-radius: 7px;
-    font-size: 14px;
+    font-size: 18px;
     padding: 15px 50px;
     margin: 20px 0;
     box-sizing: border-box;
-    width: 200px;
+    width: 250px;
 }
 
 a{
