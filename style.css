@@ -197,5 +197,10 @@ a{
     color: white;
     text-decoration: underline;
 }
+.password-error{
+    color: red;
+    font-size: 10pt;
+    margin-top: -10px;
+}
 
 
